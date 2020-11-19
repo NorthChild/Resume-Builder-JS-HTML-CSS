@@ -1,22 +1,5 @@
 // #############################################################################
 
-/*
-#### TO DO ####
-
-- change validity checks for input (i.e telephone number can only receive
-numbers and no letters), apply this to most inputs
-- add a button to save past experiences, then in back end before creating
-the resume with the final button, to be able to save and display all of
-the experiences that the user has inputted
-- create a hover functionality for both textareas and buttons
-- fix the text in resizing
-- fix the buttons, center them and fix dimensions
-
-#### TO DO ####
-*/
-
-// #############################################################################
-
 // #############################################################################
 //                           FUNCTIONS AND VARIABLES
 // #############################################################################
@@ -54,9 +37,6 @@ function checkLength() {
   }
 }
 
-
-
-
 // #############################################################################
 // this function removes the experience banners in case its the users first job
 
@@ -85,12 +65,6 @@ function killSwitch() {
 
 // #############################################################################
 //
-
-
-
-
-
-
 
 // #############################################################################
 // main function
@@ -176,13 +150,10 @@ function createResume() {
           </html>`;
 
 
-let flyWindow = window.open(
-    "about:blank",
-    "myResume",
-    "width=800,height=800,left=200,top=200"
-  );
+let flyWindow = window.open("about:blank", "myResume", "width=800,height=800,left=200,top=200");
 
   flyWindow.document.write(myText);
       }
 
+// #############################################################################
 // #############################################################################
