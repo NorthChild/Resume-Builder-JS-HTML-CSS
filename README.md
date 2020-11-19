@@ -9,6 +9,6 @@ Build your resume by adding your personal, work information, and converting it a
 - anything else that comes to mind
 
 
-note: as of yet if you decide to use bullet points or "-" to list skills or particularities of your work experience
+note: as of yet if you decide to use bullet points or " - example skill etc " to list skills or particularities of your work experience
 you have to use a linebreak at the end of the line otherwise it will mash it all up together, planning to fix this soon
 sorry for the inconvenience 
